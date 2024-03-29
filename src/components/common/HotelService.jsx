@@ -31,7 +31,7 @@ const HotelService = () => {
 
 				<Row xs={1} md={2} lg={3} className="g-4 mt-2">
 					<Col>
-						<Card>
+						<Card className="hotel-service-card">
 							<Card.Body>
 								<Card.Title className="hotel-color">
 									<FaWifi />{t('WiFi')}
@@ -41,7 +41,7 @@ const HotelService = () => {
 						</Card>
 					</Col>
 					<Col>
-						<Card>
+						<Card className="hotel-service-card">
 							<Card.Body>
 								<Card.Title className="hotel-color">
 									<FaUtensils /> {t('Breakfast')}
@@ -51,7 +51,7 @@ const HotelService = () => {
 						</Card>
 					</Col>
 					<Col>
-						<Card>
+						<Card className="hotel-service-card">
 							<Card.Body>
 								<Card.Title className="hotel-color">
 									<FaTshirt /> {t('Laundry')}
@@ -61,7 +61,7 @@ const HotelService = () => {
 						</Card>
 					</Col>
 					<Col>
-						<Card>
+						<Card className="hotel-service-card">
 							<Card.Body>
 								<Card.Title className="hotel-color">
 									<FaCocktail /> {t('Mini-bar')}
@@ -71,7 +71,7 @@ const HotelService = () => {
 						</Card>
 					</Col>
 					<Col>
-						<Card>
+						<Card className="hotel-service-card">
 							<Card.Body>
 								<Card.Title className="hotel-color">
 									<FaParking /> {t('Parking')}
@@ -81,7 +81,7 @@ const HotelService = () => {
 						</Card>
 					</Col>
 					<Col>
-						<Card>
+						<Card className="hotel-service-card">
 							<Card.Body>
 								<Card.Title className="hotel-color">
 									<FaSnowflake /> {t('Air conditioning')}

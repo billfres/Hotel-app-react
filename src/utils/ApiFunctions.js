@@ -215,7 +215,7 @@ export async function getUser(userId, token) {
 export async function getBookingsByUserId(userId, token) {
 	try {
 		//("/user/{email}/bookings")
-		const response = await api.get(`/user/${userId}/bookings`, {
+		const response = await api.get(`/bookings/user/${userId}/bookings`, {
 		//const response = await api.get(`/bookings/user/${userId}/bookings`, {
 			headers: getHeader()
 		})

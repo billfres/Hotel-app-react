@@ -38,8 +38,8 @@
   --footer_color: white;
   --bs-light-rgb:rgb(0 0 0 / 20%) !important;
   --bs-bg-opacity:1;
-  --bs-card-bg: #000;
-  --room-price-color:rgb(96, 6, 222);
+  --bs-card-bg: #000000;
+  --room-price-color:rgb(255, 255, 255);
   --background-booking: #3a5050;
   --bg-table-color: #080000;
  /* --rdrWeekDay-color: rgb(230, 235, 236);*/
@@ -55,17 +55,18 @@ body {
   color: var(--body-color);
 }
 .card {
+  background: var(--nav_background);
   opacity: 0.9;
 }
-.roomcardbody card-body{
-  background-color: var(--bs-card-bg);
+.roomcardbody{
+  background-color: var(--nav_background);
 }
 
 .navbar1{
   --bs-bg-opacity: 1;
   background-color: var(--nav_background) !important;
 }
-/* Navigation bar definitions */
+/* Navigation bar definitions card-text  */
 a.nav-link {
   color: var( --link_color);
   font-size: 17px;
@@ -165,6 +166,7 @@ a.nav-link {
     color:var(--room-price-color);
     font-family: 'Courier New', Courier, monospace;
     font-size:medium;
+    font-weight: bold;
   }
   .vertical-rule{
     border-left: '0.5px solid black';
@@ -236,6 +238,9 @@ p,label,hr, h1, h2,h5,h6,span, .datetable, .rdrStaticRangeLabel,.bookings-title 
     background: var(--bg-table-color);
   }
   .profil-photo {
+    background: var(--bg-profil-photo);
+  }
+  .hotel-service-card{
     background: var(--bg-profil-photo);
   }
   .profile-card{

@@ -60,7 +60,7 @@ const RoomCarousel = () => {
                             style={{ height: "200px" }}
                           />
                         </Link>
-                        <Card.Body className="roomcardbody">
+                        <Card.Body >
                           <Card.Title className="hotel-color">{room.roomType}</Card.Title>
                           <Card.Title className="room-price">${room.roomPrice}/night</Card.Title>
                           <div className="flex-shrink-0">
