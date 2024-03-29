@@ -20,6 +20,7 @@
   --bs-table-hover-color: rgba(0,0,0,0.07);
   --bg-profil-photo: #fefefe;
   --bg-profil-card: whitesmoke;
+  --bs-success-rgb: rgb(25 135 84);
 }
 
 
@@ -46,6 +47,7 @@
  --bs-table-hover-color: rgb(169, 77, 123);
  --bg-profil-photo: #000000;
  --bg-profil-card: #adafaf;
+ --bs-success-rgb: #ffffff;
 }
 
 body {
@@ -173,6 +175,10 @@ a.nav-link {
     height: '100vh'
   }
 
+  .textsuccess {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
+}
 
 
 .parallax {

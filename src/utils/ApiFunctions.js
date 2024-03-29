@@ -1,12 +1,12 @@
 import axios from "axios"
 
-export const api = axios.create({
+/*export const api = axios.create({
 	baseURL: "http://localhost:9192"
-})/*
+})*/
 export const api = axios.create({
-	baseURL: "alleged-money-production.up.railway.app"
+	baseURL: "hotel-app-rest-api-spring-boot-production.up.railway.app"
 })
-*/
+
 export const getHeader = () => {
 	const token = localStorage.getItem("token")
 	return {

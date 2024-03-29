@@ -15,8 +15,8 @@ const BookingSuccess = () => {
 			<div className="mt-5">
 				{message ? (
 					<div>
-						<h3 className="text-success"> {t('Booking Success!')}</h3>
-						<p className="text-success">{message}</p>
+						<h3 className="textsuccess"> {t('Booking Success!')}</h3>
+						<p className="textsuccess">{message}</p>
 					</div>
 				) : (
 					<div>

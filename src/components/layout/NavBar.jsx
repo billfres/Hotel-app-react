@@ -127,8 +127,14 @@ const NavBar = () => {
 							
 						</li>
 					</ul>*/}
+					<ul className="d-flex navbar-nav">
+						<li className="nav-item">
+						<DarkMode2 />
+						</li>
+					
+					</ul>
 				</div>
-				<DarkMode2 />
+				{/*<DarkMode2 />*/}
 			</div>
 		</nav>
 	)
